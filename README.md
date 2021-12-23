@@ -1,2 +1,2 @@
 ﻿# erinbeasley
-erinbeasley.com
+https://erinbeasley.com/
