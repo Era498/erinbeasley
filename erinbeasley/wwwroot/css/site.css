@@ -18,6 +18,11 @@ body {
     margin-bottom: 60px;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 .flexbox {
     margin-top: 10%;
     display: flex;

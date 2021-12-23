@@ -11,6 +11,12 @@
     <header class="header">
     </header>
 <body>
+    <div class="left">
+        <label class="switch">
+            <input type="checkbox" onclick="darkMode()">
+            <span class="slider round"></span>
+        </label>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -26,6 +32,12 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
