@@ -1,21 +1,28 @@
 ﻿@page
-<div class="darkmode">
+<div >
     <div class="text-center">
         <h1 class="header"> </h1>
+        <div class="left" >
+            <!-- Toggle switch design created by Jon Kantner-->
+            <input class="l" type="checkbox" onclick="darkMode()">
+        </div>
         <div class="flexbox">
                 <div class="flex-child">
-                    <div class="large-txt">Erin Beasley</div> 
+                    <div class="intro">
+                    Hello! My name is <div class="large-txt"><b>Erin Beasley<span style="color: #3ade65;">.</span></b></div> 
+                    I am a Carnegie Mellon Alum currently working at Microsoft as a SWE in DevDiv.
                     <br /> 
-                    <a href="/lib/ErinBeasley_Resume.pdf">Resume</a> 
-                    <br /> 
+                    See my resume 
+                    <a href="/lib/ErinBeasley_Resume.pdf">here</a> and check out my
                     <a href="https://github.com/Era498">Github</a>
+                    </div>
                 </div>
         <div class="flex-child"> <img src=/lib/ebeasley_pic.jpg alt="Picture of Erin" width="168" height="168" />
             <div class="flex-child"></div>  
         </div>
         </div>
         Projects
-        <button type="button" class="collapsible">COVID SIR Model</button>
+        <button type="button" class="collapsible-dark" id="menu">COVID SIR Model</button>
         <div class="content">
             <p>A node-graph based SIR Model I made in while learning React. You can interact with the model by clicking on the nodes. 
                 By double clicking, you can add additional connections. 
