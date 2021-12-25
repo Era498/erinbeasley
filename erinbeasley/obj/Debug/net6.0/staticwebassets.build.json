@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7RFgymq4TzNesfPrEGs0hs21vU19XMcJT2ZsfDCh/S0=",
+  "Hash": "0NP+ar15vVc2l8xs3BSi/HGcSZsHgI5RGE+1t2Tsnsk=",
   "Source": "erinbeasley",
   "BasePath": "_content/erinbeasley",
   "Mode": "Default",
@@ -865,23 +865,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
-    },
-    {
-      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\ebeasley_pic.jpg",
-      "SourceId": "erinbeasley",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\",
-      "BasePath": "_content/erinbeasley",
-      "RelativePath": "lib/ebeasley_pic.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\ebeasley_pic.jpg"
     },
     {
       "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\ErinBeasley_Resume.pdf",
