@@ -35,20 +35,36 @@
          buttonCol[i].classList.toggle("collapsible-dark");
          buttonCol[i].classList.toggle("collapsible");
         }
+        var pic = document.getElementById("profpic");
+        if(buttonCol[0].classList.contains("collapsible")) {
+
+            pic.src = "/lib/testpiclight.png";
+        }
+        else {
+             pic.src = "/lib/testpicdark.png";
+        }
+        
        
         }
     </script>
     <script>
-        var coll = document.getElementById("menu");
-        coll.addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-            content.style.maxHeight = null;
-        } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-        } 
-        });
+        var coll = document.getElementsByClassName("collapsible");
+        if(coll.length < 2) {
+            coll = document.getElementsByClassName("collapsible-dark");
+        }
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
     </script>
 
     @await RenderSectionAsync("Scripts", required: false)
