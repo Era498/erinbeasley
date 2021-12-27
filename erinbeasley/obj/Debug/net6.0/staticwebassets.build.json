@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0NP+ar15vVc2l8xs3BSi/HGcSZsHgI5RGE+1t2Tsnsk=",
+  "Hash": "6NU2CeuCN7rrrmORCG9lTWGTjg0f0wOFisLWIhuYKro=",
   "Source": "erinbeasley",
   "BasePath": "_content/erinbeasley",
   "Mode": "Default",
@@ -867,6 +867,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\Erin_portrait.png",
+      "SourceId": "erinbeasley",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\",
+      "BasePath": "_content/erinbeasley",
+      "RelativePath": "lib/Erin_portrait.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Erin_portrait.png"
+    },
+    {
       "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\ErinBeasley_Resume.pdf",
       "SourceId": "erinbeasley",
       "SourceType": "Discovered",
@@ -1105,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\testpicdark.PNG"
     },
     {
-      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\testpiclight.PNG",
+      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\testpiclightgreen.PNG",
       "SourceId": "erinbeasley",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\",
       "BasePath": "_content/erinbeasley",
-      "RelativePath": "lib/testpiclight.PNG",
+      "RelativePath": "lib/testpiclightgreen.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\testpiclight.PNG"
+      "OriginalItemSpec": "wwwroot\\lib\\testpiclightgreen.PNG"
     }
   ]
 }
