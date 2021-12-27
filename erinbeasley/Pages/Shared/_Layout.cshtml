@@ -36,15 +36,6 @@
          buttonCol[i].classList.toggle("collapsible");
         }
         var pic = document.getElementById("profpic");
-        /*if(buttonCol[0].classList.contains("collapsible")) {
-
-            pic.src = "/lib/testpiclightgreen.png";
-        }
-        else {
-             pic.src = "/lib/testpicdark.png";
-        }*/
-        
-       
         }
     </script>
     <script>
@@ -53,7 +44,6 @@
             coll = document.getElementsByClassName("collapsible-dark");
         }
         var i;
-
         for (i = 0; i < coll.length; i++) {
           coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
