@@ -37,7 +37,7 @@ body {
 .collapsible {
     float: left;
     cursor: pointer;
-    padding: 18px;
+    padding: 4%;
     width: 100%;
     border: none;
     text-align: left;
@@ -55,7 +55,7 @@ body {
 .collapsible-dark {
     float: left;
     cursor: pointer;
-    padding: 18px;
+    padding: 4%;
     width: 100%;
     border: none;
     text-align: left;
@@ -108,10 +108,12 @@ body {
     margin-right: 20px;
 }
 .large-txt {
-    font-size: 40px;
+    text-align: left;
+    font-size: 30px;
 }
 
 .intro {
+    margin-left: 4%;
     text-align: left;
 }
 
@@ -170,7 +172,6 @@ body {
     background-color: rgba(0,0,0,0.45);
     box-shadow: 0.125em 0.125em 0 0.125em rgba(0,0,0,0.1) inset;
 }
-
     .l:checked:before {
         background-color: currentColor;
         transform: translateX(125%)
