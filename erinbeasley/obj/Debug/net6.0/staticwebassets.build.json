@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6NU2CeuCN7rrrmORCG9lTWGTjg0f0wOFisLWIhuYKro=",
+  "Hash": "Be/o24xatftaycbnGUUlydd2g3bRpOaxcPJiZzDsdk0=",
   "Source": "erinbeasley",
   "BasePath": "_content/erinbeasley",
   "Mode": "Default",
@@ -1103,40 +1103,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\testpicdark.PNG",
-      "SourceId": "erinbeasley",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\",
-      "BasePath": "_content/erinbeasley",
-      "RelativePath": "lib/testpicdark.PNG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\testpicdark.PNG"
-    },
-    {
-      "Identity": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\lib\\testpiclightgreen.PNG",
-      "SourceId": "erinbeasley",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\erinb\\source\\repos\\erinbeasley\\erinbeasley\\wwwroot\\",
-      "BasePath": "_content/erinbeasley",
-      "RelativePath": "lib/testpiclightgreen.PNG",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\testpiclightgreen.PNG"
     }
   ]
 }
