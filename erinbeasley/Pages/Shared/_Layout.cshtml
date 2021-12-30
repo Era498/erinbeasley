@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - erinbeasley</title>
+    <title>@ViewData["Title"] Erin Beasley's Website</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/erinbeasley.styles.css" asp-append-version="true" />
@@ -21,42 +21,5 @@
             &copy; 2021 - erinbeasley - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script>
-        function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        var buttonCol = document.getElementsByTagName("button");
-        for (var i = buttonCol.length - 1; i >= 0; i--)
-        {
-         buttonCol[i].classList.toggle("collapsible-dark");
-         buttonCol[i].classList.toggle("collapsible");
-        }
-        var pic = document.getElementById("profpic");
-        }
-    </script>
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        if(coll.length < 2) {
-            coll = document.getElementsByClassName("collapsible-dark");
-        }
-        var i;
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-              content.style.maxHeight = null;
-            } else {
-              content.style.maxHeight = content.scrollHeight + "px";
-            } 
-          });
-        }
-    </script>
-
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
